@@ -1,0 +1,23 @@
+{
+  "$schema": "https://aka.ms/winget-manifest.installer.1.9.0.schema.json",
+  "PackageIdentifier": "WingetCreateE2E.Json.ZipTest",
+  "PackageVersion": "1.2.3.4",
+  "MinimumOSVersion": "10.0.0.0",
+  "InstallerType": "zip",
+  "NestedInstallerType": "msi",
+  "NestedInstallerFiles": [
+    {
+      "RelativeFilePath": "WingetCreateTestMsiInstaller.msi"
+    }
+  ],
+  "ProductCode": "{E2650EFC-DCD3-4FAA-BBAC-FD1812B03A61}",
+  "Installers": [
+    {
+      "Architecture": "x64",
+      "InstallerUrl": "https://fakedomain.com/WingetCreateTestZipInstaller.zip",
+      "InstallerSha256": "09E711014F5B49FA18EB46502452A185BF822D0800AEB1877EB2151EC1957325"
+    }
+  ],
+  "ManifestType": "installer",
+  "ManifestVersion": "1.9.0"
+}
